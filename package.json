@@ -1,0 +1,10 @@
+{
+  "name": "battleship_multiplayer",
+  "version": "0.0.1",
+  "description": "Battleship game multiplayer",
+  "author": "Gaetano Contaldi",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
