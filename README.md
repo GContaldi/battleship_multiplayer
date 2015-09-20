@@ -49,7 +49,7 @@ build step not needed to run the tests, since is already included in the test ta
 - Start the app and watch changes:
 
     ```
-        gulp dev-server
+        gulp dev-server       // livereload enabled
     ```
 
 build step not needed to start the app, since is already included in the start task.
