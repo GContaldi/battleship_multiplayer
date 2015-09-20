@@ -4,7 +4,14 @@ var config = require('../config.js');
 
 gulp.task('build', ['lint', 'webpack', 'less']);
 
+gulp.task('html', function() {
+  gulp.src(config.watch.html)
+    .pipe(connect.reload());
+});
+
 gulp.task('watch', ['serve'], function() {
+  gulp.watch(config.watch.html, ['html']);
+
   gulp.watch(config.watch.less, ['less']);
 
   gulp.watch(config.watch.webpack, ['webpack']);

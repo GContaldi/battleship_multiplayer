@@ -14,7 +14,7 @@ var config = {
     host: 'localhost',
     port: 4000,
     root: '.',
-    livereload: false
+    livereload: true
   },
 
   clean: {
@@ -40,7 +40,8 @@ var config = {
 
   watch: {
     less: [folders.stylesheetsDir + '**/*.less'],
-    webpack: [folders.javascriptsDir + '**/*.js']
+    webpack: [folders.javascriptsDir + '**/*.js'],
+    html: [folders.rootDir + 'index.html']
   },
 
   webpack: {

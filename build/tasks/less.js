@@ -3,6 +3,8 @@ var less = require('gulp-less');
 var rename = require('gulp-rename');
 var LessPluginCleanCSS = require('less-plugin-clean-css');
 var LessPluginAutoPrefix = require('less-plugin-autoprefix');
+var connect = require('gulp-connect');
+
 var lessConf = require('../config.js').less;
 
 var cleancss = new LessPluginCleanCSS({ advanced: true });
@@ -19,5 +21,7 @@ gulp.task('less', function() {
       path.extname = lessConf.extension;
     }))
 
-    .pipe(gulp.dest(lessConf.dest));
+    .pipe(gulp.dest(lessConf.dest))
+
+    .pipe(connect.reload());
 });
