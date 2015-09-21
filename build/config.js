@@ -28,7 +28,8 @@ var config = {
   lint: {
     srcFiles: folders.srcDir + '**/*.js',
     specsFiles: folders.specsDir + '**/*.js',
-    buildFiles: folders.buildDir + '**/*.js'
+    buildFiles: folders.buildDir + '**/*.js',
+    confFiles: folders.rootDir + '*.js'
   },
 
   less: {
