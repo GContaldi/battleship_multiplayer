@@ -8,6 +8,7 @@ folders.specsDir = folders.rootDir + 'specs/';
 folders.buildDir = folders.rootDir + 'build/';
 folders.javascriptsDir = folders.srcDir + 'javascripts/';
 folders.stylesheetsDir = folders.srcDir + 'stylesheets/';
+folders.coverageDir = folders.rootDir + 'coverage/';
 
 var config = {
   devServer: {
