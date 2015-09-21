@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/GContaldi/battleship_multiplayer.svg)](https://travis-ci.org/GContaldi/battleship_multiplayer)
-
 # Battleship Multiplayer
+[![Build Status](https://travis-ci.org/GContaldi/battleship_multiplayer.svg)](https://travis-ci.org/GContaldi/battleship_multiplayer)
+[![Coverage Status](https://coveralls.io/repos/GContaldi/battleship_multiplayer/badge.svg?branch=master&service=github)](https://coveralls.io/github/GContaldi/battleship_multiplayer?branch=master)
 
 ## Basic Idea
 
