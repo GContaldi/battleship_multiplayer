@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/GContaldi/battleship_multiplayer.svg)](https://travis-ci.org/GContaldi/battleship_multiplayer)
-
 # Battleship Multiplayer
+[![Build Status](https://travis-ci.org/GContaldi/battleship_multiplayer.svg)](https://travis-ci.org/GContaldi/battleship_multiplayer)
+[![Coverage Status](https://coveralls.io/repos/GContaldi/battleship_multiplayer/badge.svg?branch=master&service=github)](https://coveralls.io/github/GContaldi/battleship_multiplayer?branch=master)
 
 ## Basic Idea
 
@@ -19,6 +19,7 @@ This single page application is written using:
 - ES6 compiled into ES5 using [Babel](http://babeljs.io/).
 - Bundled with [Webpack](http://webpack.github.io/).
 - Tests runs with [Karma](http://karma-runner.github.io/) and [Jasmine](http://jasmine.github.io/).
+- Code coverage with [Istanbul](http://github.com/gotwarlost/istanbul) and [Coveralls](http://coveralls.io/).
 
 ## Building and Running
 
@@ -52,4 +53,4 @@ build step not needed to run the tests, since is already included in the test ta
         gulp dev-server       // livereload enabled
     ```
 
-build step not needed to start the app, since is already included in the start task.
+the app will be available at `http://localhost:4000`.
